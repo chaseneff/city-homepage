@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    color: white;
+    margin: 0px;
+}
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1562602833-0f4ab2fc46e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbmdrb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+    background-position: center;
+}
+
+.hero-title {
+    text-shadow: 0 0 10px black;
+    background: #90D2C9;
+    padding: 2px 20px;
+    border-radius: 40px;
+}
+
+.hero-subtitle {
+    text-shadow: 0 0 10px black;
+    background: #90D2C9;
+    padding: 2px 20px;
+    border-radius: 40px;
+}
+
+#activities {
+    color: black;
+    background: #D9E4E0;
+    
+}
+.activities-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 60px 0px;
+}
+.activity {
+    width: 200px;
+}
+.activity-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.guide-card {
+    width: 425px;
+    margin: 30px  auto;
+    padding: 15px;
+    display: flex;
+   
+
+    background: #90D2C9;
+    border-bottom: 10px solid #856A4A;
+    border-radius: 6px;
+    color: black;
+}
+
+.guide-img {
+    width: 180px;
+    height: min-content;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+}
+
